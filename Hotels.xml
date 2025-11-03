@@ -98,9 +98,9 @@
     </Address>
   </Hotel>
 
-  <!-- hotel 9: Holiday Inn Express & Suites Gilbert – Mesa Gateway Airport by IHG -->
+  <!-- hotel 9: Holiday Inn Express &amp; Suites Gilbert – Mesa Gateway Airport by IHG -->
   <Hotel Rating="4.0">
-    <Name>Holiday Inn Express & Suites Gilbert – Mesa Gateway Airport by IHG</Name>
+    <Name>Holiday Inn Express &amp; Suites Gilbert – Mesa Gateway Airport by IHG</Name>
     <Phone>480-404-9800</Phone>
     <Address Number="5530" NearestAirport="Phoenix-Mesa Gateway Airport">
       <Street>S Power Rd</Street>
