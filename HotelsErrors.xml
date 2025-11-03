@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
-  <!-- root not found spelled incorrectly -->
+  <!-- 1 root not found spelled incorrectly (s) -->
   <Hotel Rating="4.2">
     <Name>Westin Tempe Hotel</Name>
     <Phone>480-968-8885</Phone>
@@ -14,7 +14,7 @@
     </Address>
   </Hotel>
 
-  <!-- req phone missing -->
+  <!-- 3 req phone missing -->
   <Hotel Rating="4.4">
     <Name>Canopy by Hilton Tempe Downtown</Name>
     <Address Number="108" NearestAirport="Sky Harbor">
@@ -25,7 +25,7 @@
     </Address>
   </Hotel>
 
-  <!-- no addr close tag -->
+  <!-- 4 no addr close tag -->
   <Hotel Rating="4.0">
     <Name>Hyatt Place Tempe / Phoenix / University</Name>
     <Phone>480-207-1578</Phone>
@@ -37,7 +37,7 @@
       <!-- -->
   </Hotel>
 
-  <!-- more than one name element -->
+  <!-- 5 more than one name element -->
   <Hotel Rating="4.5">
     <Name>Omni Tempe Hotel at ASU</Name>
     <Name>Duplicate Omni Entry</Name>
@@ -50,7 +50,7 @@
     </Address>
   </Hotel>
 
-  <!-- airport keyword "nearest" spelled incorrectly -->
+  <!-- 2 airport keyword "nearest" spelled incorrectly missing attribute -->
   <Hotel Rating="4.3">
     <Name>Moxy Phoenix Tempe / ASU Area</Name>
     <Phone>480-968-3451</Phone>

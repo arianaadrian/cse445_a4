@@ -4,24 +4,29 @@
            targetNamespace="http://venus.sod.asu.edu/WSRepository/xml"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified">
-
+  <!-- Root element -->
   <xs:element name="Hotels" type="HotelsType"/>
 
+  <!-- hotel elements of nth amount -->
   <xs:complexType name="HotelsType">
     <xs:sequence>
       <xs:element name="Hotel" type="HotelType" minOccurs="1" maxOccurs="unbounded"/>
     </xs:sequence>
   </xs:complexType>
 
+  <!-- individual hotel element -->
   <xs:complexType name="HotelType">
     <xs:sequence>
+    <!-- name phone addr -->
       <xs:element name="Name" type="xs:string" minOccurs="1" maxOccurs="1"/>
       <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
       <xs:element name="Address" type="AddressType" minOccurs="1" maxOccurs="1"/>
     </xs:sequence>
+    <!-- optional elements -->
     <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
   </xs:complexType>
 
+  <!-- address element in detail -->
   <xs:complexType name="AddressType">
     <xs:sequence>
       <xs:element name="Street" type="xs:string" minOccurs="1" maxOccurs="1"/>
@@ -29,6 +34,7 @@
       <xs:element name="State" type="xs:string" minOccurs="1" maxOccurs="1"/>
       <xs:element name="Zip" type="xs:string" minOccurs="1" maxOccurs="1"/>
     </xs:sequence>
+    <!-- req elements airport -->
     <xs:attribute name="Number" type="xs:string" use="required"/>
     <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
   </xs:complexType>
