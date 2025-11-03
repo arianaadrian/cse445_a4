@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+        xsi:noNamespaceSchemaLocation="https://arianaadrian.github.io/cse445_a4/Hotels.xsd">
 
   <!-- hotel 1: example -->
   <Hotel Rating="4.2">
     <Name>Westin Tempe Hotel</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address Number="11" NearestAirport="Sky Harbor">
+    <Address>
+      <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
@@ -19,11 +21,13 @@
   <Hotel Rating="4.4">
     <Name>Canopy by Hilton Tempe Downtown</Name>
     <Phone>480-968-6800</Phone>
-    <Address Number="108" NearestAirport="Sky Harbor">
+    <Address>
+      <Number>108</Number>
       <Street>E University Dr</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
@@ -31,11 +35,13 @@
   <Hotel Rating="4.1">
     <Name>Graduate Tempe Hotel</Name>
     <Phone>480-967-9431</Phone>
-    <Address Number="225" NearestAirport="Sky Harbor">
+    <Address>
+      <Number>225</Number>
       <Street>E Apache Blvd</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
@@ -43,11 +49,13 @@
   <Hotel Rating="4.0">
     <Name>Hyatt Place Tempe / Phoenix / University</Name>
     <Phone>480-207-1578</Phone>
-    <Address Number="601" NearestAirport="Sky Harbor">
+    <Address>
+      <Number>601</Number>
       <Street>E 6th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
@@ -55,11 +63,13 @@
   <Hotel Rating="4.5">
     <Name>Omni Tempe Hotel at ASU</Name>
     <Phone>480-527-3650</Phone>
-    <Address Number="7" NearestAirport="Sky Harbor">
+    <Address>
+      <Number>7</Number>
       <Street>E University Dr</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
@@ -67,11 +77,13 @@
   <Hotel Rating="4.3">
     <Name>Marriott Phoenix Resort Tempe at The Buttes</Name>
     <Phone>602-225-9000</Phone>
-    <Address Number="2000" NearestAirport="Sky Harbor">
+    <Address>
+      <Number>2000</Number>
       <Street>W Westcourt Way</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85282</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
@@ -79,11 +91,13 @@
   <Hotel Rating="4.0">
     <Name>Moxy Phoenix Tempe / ASU Area</Name>
     <Phone>480-968-3451</Phone>
-    <Address Number="1333" NearestAirport="Sky Harbor">
+    <Address>
+      <Number>1333</Number>
       <Street>S Rural Rd</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
@@ -91,11 +105,13 @@
   <Hotel Rating="3.9">
     <Name>Four Points by Sheraton at Phoenix Mesa Gateway Airport</Name>
     <Phone>480-579-2100</Phone>
-    <Address Number="6850" NearestAirport="Phoenix-Mesa Gateway Airport">
+    <Address>
+      <Number>6850</Number>
       <Street>E Williams Field Rd</Street>
       <City>Mesa</City>
       <State>AZ</State>
       <Zip>85212</Zip>
+      <NearestAirport>Phoenix-Mesa Gateway Airport</NearestAirport>
     </Address>
   </Hotel>
 
@@ -103,11 +119,13 @@
   <Hotel Rating="4.0">
     <Name>Holiday Inn Express &amp; Suites Gilbert – Mesa Gateway Airport by IHG</Name>
     <Phone>480-404-9800</Phone>
-    <Address Number="5530" NearestAirport="Phoenix-Mesa Gateway Airport">
+    <Address>
+      <Number>5530</Number>
       <Street>S Power Rd</Street>
       <City>Gilbert</City>
       <State>AZ</State>
       <Zip>85295</Zip>
+      <NearestAirport>Phoenix-Mesa Gateway Airport</NearestAirport>
     </Address>
   </Hotel>
 
@@ -115,11 +133,13 @@
   <Hotel Rating="4.1">
     <Name>DoubleTree by Hilton Hotel Phoenix - Gilbert</Name>
     <Phone>480-809-4100</Phone>
-    <Address Number="1800" NearestAirport="Phoenix-Mesa Gateway Airport">
+    <Address>
+      <Number>1800</Number>
       <Street>S SanTan Village Pkwy</Street>
       <City>Gilbert</City>
       <State>AZ</State>
       <Zip>85295</Zip>
+      <NearestAirport>Phoenix-Mesa Gateway Airport</NearestAirport>
     </Address>
   </Hotel>
 
@@ -127,11 +147,13 @@
   <Hotel Rating="4.2">
     <Name>Hilton Tucson East</Name>
     <Phone>520-721-5600</Phone>
-    <Address Number="7600" NearestAirport="Tucson International Airport">
+    <Address>
+      <Number>7600</Number>
       <Street>E Broadway Blvd</Street>
       <City>Tucson</City>
       <State>AZ</State>
       <Zip>85710</Zip>
+      <NearestAirport>Tucson International Airport</NearestAirport>
     </Address>
   </Hotel>
 
