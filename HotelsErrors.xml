@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <!-- root not found spelled incorrectly -->
+  <Hotel Rating="4.2">
+    <Name>Westin Tempe Hotel</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- req phone missing -->
+  <Hotel Rating="4.4">
+    <Name>Canopy by Hilton Tempe Downtown</Name>
+    <Address Number="108" NearestAirport="Sky Harbor">
+      <Street>E University Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- no addr close tag -->
+  <Hotel Rating="4.0">
+    <Name>Hyatt Place Tempe / Phoenix / University</Name>
+    <Phone>480-207-1578</Phone>
+    <Address Number="601" NearestAirport="Sky Harbor">
+      <Street>E 6th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <!-- -->
+  </Hotel>
+
+  <!-- more than one name element -->
+  <Hotel Rating="4.5">
+    <Name>Omni Tempe Hotel at ASU</Name>
+    <Name>Duplicate Omni Entry</Name>
+    <Phone>480-527-3650</Phone>
+    <Address Number="7" NearestAirport="Sky Harbor">
+      <Street>E University Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- airport keyword "nearest" spelled incorrectly -->
+  <Hotel Rating="4.3">
+    <Name>Moxy Phoenix Tempe / ASU Area</Name>
+    <Phone>480-968-3451</Phone>
+    <Address Number="1333" NearstAirport="Sky Harbor">
+      <Street>S Rural Rd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+</Hotel>

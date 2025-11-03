@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- root element from tree -->
+  <xs:element name="Hotels">
+    <xs:complexType>
+      <xs:sequence>
+
+        <!-- hotel element to the nth time -->
+        <xs:element name="Hotel" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+
+              <!-- hotel name -->
+              <xs:element name="Name" type="xs:string"/>
+
+              <!-- phone number(s) -->
+              <xs:element name="Phone" type="xs:string" maxOccurs="unbounded"/>
+
+              <!-- address -->
+              <xs:element name="Address">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Street" type="xs:string"/>
+                    <xs:element name="City" type="xs:string"/>
+                    <xs:element name="State" type="xs:string"/>
+                    <xs:element name="Zip" type="xs:string"/>
+                  </xs:sequence>
+                  <!-- req for street num -->
+                  <xs:attribute name="Number" type="xs:string" use="required"/>
+                  <!-- additional info for nearest airport -->
+                  <xs:attribute name="NearestAirport" type="xs:string" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+
+            </xs:sequence>
+
+            <!-- additional info for hotel rating -->
+            <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
